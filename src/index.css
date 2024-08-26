@@ -1,0 +1,56 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  resize: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #49088a;
+}
+
+/* --------------FOR SLIDES--------------- */
+
+.has-scrollbar::-webkit-scrollbar {
+  height: 0.7rem;
+}
+
+.has-scrollbar::-webkit-scrollbar-thumb {
+  background: #4b0070;
+  border: 0.15rem solid #eee;
+  border-radius: 1.3rem;
+}
+
+.has-scrollbar::-webkit-scrollbar-track {
+  background: gray;
+  border: 0.25rem solid var(--color-light);
+  border-radius: 1.3rem;
+  width: calc(50% - 40px);
+}
+
+.has-scrollbar::-webkit-scrollbar-button {
+  width: calc(25% - 40px);
+}

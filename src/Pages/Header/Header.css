@@ -1,0 +1,7 @@
+.header {
+  background-image: linear-gradient(#49088a87, #49088a75),
+    url(../../assets/images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
